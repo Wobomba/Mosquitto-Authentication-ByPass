@@ -1,0 +1,15 @@
+# Nmap 7.93 scan initiated Tue Mar 14 09:53:08 2023 as: nmap -sC -sV -Pn -A -oN bugged.txt 10.10.235.243
+Nmap scan report for 10.10.235.243
+Host is up (0.29s latency).
+All 1000 scanned ports on 10.10.235.243 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 8888/tcp)
+HOP RTT       ADDRESS
+1   344.60 ms 10.8.0.1
+2   344.71 ms 10.10.235.243
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 14 09:53:32 2023 -- 1 IP address (1 host up) scanned in 24.56 seconds
